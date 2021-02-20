@@ -1,13 +1,17 @@
 
-@media screen and (max-width: 600px) {
-  .cock {
-    /* font-size:'32px'; */
-    color:green;
+@media only screen and (orientation: portrait)  {
+  .text {
+    font-size: 2em;
   }
 }
-.cock {
-  font-size:'72px';
-  color:yellow;
+@media only screen and (orientation:landscape) {
+  .text {
+    font-size: 4em;
+  }
+
+}
+.text {
+  color:white;
 }
 .w-100 {
   width: 100vw;
